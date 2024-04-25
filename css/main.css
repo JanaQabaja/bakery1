@@ -1,0 +1,837 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    }
+    ul{
+        list-style-type: none;
+        
+        }
+    .container{
+    margin: auto;
+    overflow: hidden;
+    
+    /* width: 80%; */
+    }
+    @font-face {
+        font-family:alegreye ;
+        src: url(../Alegreya/Alegreya-VariableFont_wght.ttf);
+    }
+    .clrfix{
+
+        clear: both;
+    }
+    @media screen and ( max-width:576px){
+        .container {
+           
+            width: 90%;
+        }
+        .navbar {
+            position: absolute;
+            width: 100%;}
+
+            .logo {
+                float: none;
+                width: 90%;
+                display: block;
+                margin: auto;
+                
+            }
+            .logo img{ width:  150px;
+                margin-top: 20px;
+            
+            }
+            .links {
+                float: none;
+                width: 100%;
+                display: block;
+            }
+            .links li {
+                float: left;
+                width: 30%;
+            }
+            .links li a {
+                width: 76px;
+               
+                padding: 7px 0px;
+            
+                font-size: 16px;
+             
+            }
+            .h_content h1 {
+                Font-size: 40px;
+            }
+            .h_content p {
+                font-size: 20px;
+                width: 90%;
+               
+            }
+            .header a {
+                padding: 20px 10px;}
+                        
+/*about*/
+
+.inf_about {
+    float: none;
+    width: 80%;
+    margin-top: -6px;
+   
+}
+
+.img_about {
+    float: none;
+    width: 67%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+/*location*/
+.inf_loc {
+    float: none;
+    width: 90%;
+    margin-top: 13px;
+}
+
+.img_loc {
+    margin: auto;
+    float: none;
+    width: 81%;
+}
+ /*menu*/
+ .menu h2 {
+    font-size: 30px;
+}
+
+.item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.menu p {
+    width: 87%;
+    margin-bottom: 20px;
+    Font-size: 16px;
+   
+}  
+.item {
+    float: none;
+    width: 80%;
+    margin: auto;
+}  
+.menu {
+    margin-bottom: 49px;
+}
+
+        }
+
+
+    
+      @media screen and ( min-width:577px) and (max-width:768px){
+        .navbar {
+            position: absolute;
+            width: 90%;
+        }
+
+        .logo {
+            float: none;
+            width: 40%;
+            display: block;
+            margin: auto;
+        }
+        .logo img{ width:  170px;
+            margin-top: 20px;
+        
+        }
+        .links {
+            float: none;
+            width: 100%;
+            display: block;
+        }
+        .links li {
+            float: left;
+            width: 16%;
+           }
+        links li a {
+            width: 100px;
+
+             
+            font-size: 18px;
+            padding: 9px 0px;
+           
+        }
+        .header a {
+            padding: 20px 10px;}
+        .h_content h1 {
+            Font-size: 60px;
+           
+        }
+        .h_content p {
+            font-size: 20px;
+          
+            width: 80%;
+          
+        }
+        
+/*about*/
+
+.inf_about {
+    float: none;
+    width: 80%;
+    margin-top: -6px;
+   
+}
+
+.img_about {
+    float: none;
+    width: 67%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container {
+  
+    width: 90%;
+}
+/*location*/
+.inf_loc {
+    float: left;
+    width: 52%;
+    margin-top: -26px;
+    
+}
+.img_loc {
+   float: right;
+    width: 45%;
+}
+ /*menu*/
+.menu h2 {
+    font-size: 40px;
+}
+
+.item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.menu p {
+    width: 87%;
+    margin-bottom: 20px;
+    Font-size: 16px;
+   
+}  
+.item {
+    float: none;
+    width: 80%;
+    margin: auto;
+}  
+.menu {
+    margin-bottom: 49px;
+}
+
+    }
+    @media screen and ( min-width:769px) and (max-width:992px){
+        .navbar {
+            position: absolute;
+            width: 90%;
+        }
+
+        .logo {
+            float: none;
+            width: 40%;
+            display: block;
+            margin: auto;
+        }
+        
+        .logo img{ width:  200px;
+            margin-top: 20px;
+        
+        }
+        .links {
+            float: none;
+            width: 80%;
+            display: block;
+        }
+        .links li {
+            float: left;
+            width: 16%;
+           }
+        links li a {
+            width: 100px;
+
+             
+                font-size: 18px;
+            padding: 13px 0px;
+           
+        }
+        .h_content p{font-size: 24px;
+        
+            width: 45%;
+            
+        
+        }
+        
+.h_content h1{
+
+
+    Font-size: 76px;}
+
+    .header a {
+        padding: 20px 10px;}
+
+/*about*/
+
+.inf_about {
+    float: left;
+    width: 50%;
+    margin-top: -6px;
+  
+}
+.img_about {
+    float: left;
+    width: 38%;
+}
+.container {
+  
+    width: 90%;
+}
+
+/*location*/
+.inf_loc {
+    float: left;
+    width: 48%;
+    margin-top: 10px;
+}
+.img_loc {
+   float: right;
+    width: 45%;
+}
+/*menu*/
+.menu h2 {
+    font-size: 40px;
+}
+.menu p {
+    margin-bottom: 20px;
+    Font-size: 19px;
+    width: 100%;
+}
+.item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+ 
+ 
+.item {
+    float: left;
+    width: 33.33%;
+   
+}  /*
+.menu {
+    margin-bottom: 550px;
+}
+
+*/
+
+    }
+    
+    
+    @media screen and ( min-width:993px){
+ .navbar{
+        position: fixed;
+    width: 90%;
+   
+    }
+     .logo{
+        float: left;
+        width: 40%;
+    } 
+
+    
+    .logo img{ width:  200px;
+        margin-top: 20px;
+    
+    }
+      
+    .links{
+        float: right;
+      width: 60%;
+    }
+    .links li {
+        float: left;
+        width: 16%;
+       }
+      
+    .links li a {
+      
+        width: 100px;
+      
+    padding: 15px 10px;
+     
+        font-size: 18px;
+        
+      
+    }
+       
+    .h_content p{font-size: 24px;
+        
+        width: 45%;
+        
+    
+    }
+       
+.h_content h1{
+
+
+    Font-size: 76px;}  
+
+      
+    .header a {
+        padding: 20px 30px;}
+/*about*/
+        .img_about{
+            float: left;;
+         width: 45%;
+         }
+         .inf_about{
+           float: left;
+           width: 48%;
+           margin-top: 1px;
+  
+   
+         }
+         .container {
+  
+            width: 90%;
+        }
+        /*location*/
+
+        .inf_loc{
+
+            float: left;
+            width: 47%;
+            margin-top: 40px;
+         
+        }
+        .img_loc{
+            float: right;
+            width: 45%;
+        }
+
+        .item {
+            float: left;
+            width: 33.33%;
+           
+        }  
+      /* .menu {
+            margin-bottom: 550px;
+        }
+        */
+        
+        
+
+
+    }  
+    
+    .fix{padding: 5px 15px;
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    background-color: white;
+border-radius: 5% ;
+
+
+    }
+    .fix li{margin-bottom: 10px;
+    margin-top: 10px;}
+    .header{
+
+        background-image: url("../img/hed.jpg");
+        height: 100vh;
+        color: white;
+        background-size: cover;
+        }
+        h1 , h2 , h3 , h4 ,h5 ,h6 {
+        
+        font-family: Alegreya, serif;
+        
+        font-weight: 400;
+        }
+        .body{
+
+            font-family: 'Alegreya Sans', sans-serif;
+            
+            }
+
+.p1{
+    font-size: 22px;
+    Line-height: 40.92px ;
+
+}
+.h_content p{
+    /* font-size: 24px; */
+    Font-weight: 400;
+margin-top: 30px;
+    margin: auto;
+    /* width: 45%; */
+    line-height: 44.64px;
+    font-family:'Alegreya Sans', sans-serif ;
+    color: rgba(255, 255, 255, 0.92)
+
+}
+
+.h_content h1{
+
+
+    /* Font-size: 76px; */
+    
+    font-family: Alegreya, serif;
+    
+    Line-height: 91.2px ;
+    
+ color: rgb(255, 255, 255);
+
+}
+
+
+.header{
+    overflow: hidden;
+    
+    
+    }
+    /* .navbar{
+        position: fixed;
+    width: 90%;
+   
+    }
+     .logo{
+        float: left;
+        width: 40%;
+    }  */
+
+    
+    /* .logo img{ width:  200px;
+        margin-top: 20px;
+    
+    } */
+    .header a{
+        /* padding: 20px 30px; */
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 700;
+        border: none;
+        }
+        
+    /* .links{
+        float: right;
+      width: 60%;
+    } */
+    /* .links li {
+        float: left;
+        width: 16%;
+       } */
+      
+    .links li a {
+      
+        /* width: 100px; */
+        color: #ffffff ;
+    /* padding: 15px 10px; */
+        font-weight: 400;
+        /* font-size: 18px; */
+        
+        font-family: Alegreya, serif;
+    }
+    .links li a.active{color: rgb(224, 220, 210)} 
+    
+       a.le {
+            color:  white;
+            background-color: #8e7754;
+        margin-right: 5px;
+        font-family:'Alegreya Sans', sans-serif ;
+        }
+        a.bo {
+            border: 3px solid white;
+        margin-left: 5px;
+        color: #fff;
+        font-family:'Alegreya Sans', sans-serif ;
+        
+        }
+        .h_content{
+            margin-top: 230px;
+            text-align: center;
+         
+            }
+
+            /* About */
+            .about{
+    
+                padding: 80px 0px;}
+            
+            /* .img_about{
+               float: left;;
+            width: 45%;
+            } */
+            .inf_about{
+              /* float: left;
+            width: 50%;
+        margin-top: 70px; */
+     
+        padding-left: 60px;
+            }
+            
+            .img_about img {
+                
+               width: 100%;
+            }
+            .inf_about h2{
+font-family: Alegreya, serif;
+font-size: 32px;
+line-height: 44.16px;
+ color: rgb(48, 48, 48);
+ margin-bottom: 30px;
+            }
+            .inf_about p , li{
+                margin-bottom: 10 px;
+                font-size: 17px;
+               width: 100%;
+                Line-height: 31.62px;
+               color: rgb(104, 104, 104);
+                font-family: 'Alegreya Sans', sans-serif;
+            }
+            .inf_about ul li i {
+               
+                color: #8e7754;
+                padding: 15px;
+                border-radius: 50%;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                
+                border: 1px solid rgba(0,0,0,.15);
+                }
+                /*our location*/
+
+                .location{
+                    padding: 80px 0px;
+                    background: #f8f8f8;
+                }
+                /* .inf_loc{
+
+                    float: left;
+                    width: 47%;
+                    margin-top: 70px;
+                 
+                } */
+                /* .img_loc{
+                    float: right;
+                    width: 45%;
+                }
+                 */
+               
+              
+                .img_loc img {
+                    
+                   width: 100%;
+                }
+                .inf_loc h2{
+                    ont-family: Alegreya, serif;
+                    font-size: 32px;
+                    line-height: 44.16px;
+                     color: rgb(48, 48, 48);
+                     margin-bottom: 30px;
+                }
+                .inf_loc p{
+                    margin-bottom: 30px;
+                    font-size: 17px;
+                   width: 100%;
+                    Line-height: 31.62px;
+                   color: rgb(104, 104, 104);
+                    font-family: 'Alegreya Sans', sans-serif;
+                }
+
+                /*MENU*/
+                
+                .menu{
+                    padding-top: 30px;
+                    background-color: white;
+                    text-align: center;
+                  /* margin-bottom: 550px; */
+                }
+                
+                
+                .item{
+                /* float: left;
+                width: 33.33%; */
+                padding: 20px;
+                box-sizing: border-box;
+              
+                }
+                
+                .item img{
+                width: 100%;
+                
+                }
+                
+                .menu h2{
+                
+                    font-family: Alegreya, serif;
+                    font-size: 30px;
+                    line-height : 41.4px;
+                     color: rgb(48, 48, 48);
+                     margin-bottom: 20px;
+
+                }
+                
+                .menu p{
+                width: 100%;
+                margin: auto;
+                line-height: 31.62px;
+                    margin-bottom: 20px;
+
+                    font-family:'Alegreya Sans', sans-serif ;
+                    Font-size: 17px ;
+                    color: rgb(136, 136, 136);
+                }
+                .item p{
+                    color: rgb(104, 104, 104);
+                }
+                
+                .item h3{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    
+                    font-family: Alegreya, serif;
+                    font-size: 22px;
+                    line-height :30.36px;
+                     color: rgb(48, 48, 48);
+                }
+
+                /*contact*/
+                .contact{
+                margin-top: 20px;
+                    background: #f8f8f8;
+                }
+                .cnt-inf{
+                    float: left;
+                    width: 50%;
+                }
+
+                .map{
+                    width: 50%;
+                    float: left;
+
+                }
+                .cnt-inf h2{
+
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    
+                    font-family: Alegreya, serif;
+                  font-size: 32px;
+                    Line-height: 44.16px;
+                    color: rgb(48, 48, 48)
+                }
+                .cnt-inf p ,span{
+                   
+                    color: rgb(104, 104, 104);
+                    width: 100%;
+                    margin: auto;
+                    line-height: 31.62px;
+                        margin-bottom: 20px;
+    
+                        font-family:'Alegreya Sans', sans-serif ;
+                        Font-size: 17px ;
+
+                }
+                .cnt-inf li  i{
+                    background: #8e7754 ;
+                    color: white;
+                    padding: 10px;
+border-radius: 50%;
+border: 2px solid white;
+margin-top: 10px;
+margin-bottom: 10px;
+
+                }
+                /*information*/
+                .information{
+                    background-color: #403d38;
+padding: 80px 0px;
+                }
+                .information h3{
+           margin-bottom: 20px;
+
+font-size: 18px;
+
+Line-height: 24.84px;
+
+color: rgb(255, 255, 255);
+                }
+                .aboutus{
+float: left;
+width: 25%;
+                }
+                .id{
+                    background-color: #333;
+               height: 1PX;
+               width: 40px;
+
+               
+                }
+                .information p{
+                  
+
+                    Font-size: 16px;
+                    Line-height: 29.76px;
+                    font-family:'Alegreya Sans', sans-serif ;
+                  color: rgb(150, 150, 150);
+width: 90%;
+margin-bottom: 10px;
+
+                }
+                .special{
+float: left;
+width: 25%;
+                }
+                .hours{
+float: left;
+width: 25%;
+                }
+                .details{
+                  float: left; 
+                  width: 25%; 
+                  background-image: url(../img/mapp.png);
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+                }
+                /*end*/
+                .end{
+                    background-color: #353330;
+padding: 80px 0 ;
+text-align: center;
+                }
+                .end p{
+                   
+                    font-family:'Alegreya Sans', sans-serif ;
+                    Font-size: 15px;
+                    Line-height: 27.9px;
+                   color: rgb(119, 119, 119);
+
+margin-top: 20px;
+                margin-bottom: 30px;}
+                .end i{
+                    color: #8c8a86;
+padding: 15px;
+margin-right: 5px;
+border-radius: 100%;
+
+background-color: #484540;
+
+
+                }
+                .details i{
+float: left;
+color: rgb(119, 119, 119);
+margin-right: 7px;
+margin-top: 7px;
+
+                }
